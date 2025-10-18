@@ -31,5 +31,5 @@ jobs:
 
       - name: Run tests
         run: |
-          nx test frontend
-          nx test backend
+          npx nx test frontend
+          npx nx test backend
