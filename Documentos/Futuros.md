@@ -1,0 +1,1 @@
+- Posibilidad de temas: que puedas cambiar el fondo del lienzo (claro/oscuro), el diseño de las camas o zonas de cultivo, etc.

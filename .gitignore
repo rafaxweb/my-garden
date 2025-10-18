@@ -1,0 +1,39 @@
+# Nx
+.nx/installation
+.nx/cache
+.nx/workspace-data
+
+# Node
+node_modules
+
+# Angular
+.angular
+
+# User-specific tooling (Gemini, Cursor, etc.)
+.gemini/
+.windsurf/
+.cursor/
+GEMINI.md
+AGENTS.md
+.github/instructions/
+
+# Build outputs
+dist/
+build/
+**/bin
+**/obj
+
+# IDE / User-specific settings
+.vscode/
+*.user
+appsettings.Development.json
+**/Properties/launchSettings.json
+
+# Test reports
+coverage/
+test-results/
+playwright-report/
+
+# OS generated files
+.DS_Store
+Thumbs.db
