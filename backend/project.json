@@ -12,6 +12,15 @@
         "output": "generated/backend-swagger"
       },
       "dependsOn": ["build"]
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "command": "dotnet test ../backend.Test/Backend.Test.csproj --no-build"
+      },
+      "dependsOn": ["build"],
+      "inputs": ["default"]
     }
   }
 }
